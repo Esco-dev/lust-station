@@ -1,7 +1,7 @@
 - type: gameMap
   id: SunriseCentComm
   mapName: 'Central Command'
-  mapPath: /Maps/_Sunrise/Station/centcomm.yml
+  mapPath: /Maps/_Lust/Station/centcomm.yml
   maxRandomOffset: 0
   randomRotation: false
   minPlayers: 10
