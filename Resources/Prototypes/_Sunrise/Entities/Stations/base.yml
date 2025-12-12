@@ -4,7 +4,7 @@
   components:
   - type: SpawnGridAndDockToStation
     grids:
-    - gridPath: /Maps/_Sunrise/Shuttles/centcom_shuttle.yml
+    - gridPath: /Maps/_Lust/Shuttles/Resp_Centcomm.yml #Lust Edit
       priorityTag: DockCentComm
 
 - type: entity
