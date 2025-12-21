@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Sprites by discord:lapkee",
+  "copyright": "Made by bulbo44kkey for lust station",
   "size": {
     "x": 32,
     "y": 32
@@ -11,15 +11,18 @@
       "name": "icon"
     },
     {
-      "name": "equipped-HELMET",
+      "name": "icon2"
+    },
+    {
+      "name": "kira-equipped-HELMET",
       "directions": 4
     },
     {
-      "name": "inhand-left",
+      "name": "kira-inhand-left",
       "directions": 4
     },
     {
-      "name": "inhand-right",
+      "name": "kira-inhand-right",
       "directions": 4
     }
   ]
