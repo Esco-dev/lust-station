@@ -1,14 +1,15 @@
 - type: entity
   parent: EncryptionKey
-  id: EncryptionKeyUGE
-  name: Encryption key "United Government of Earth"
+  id: EncryptionKeyTSF
+  name: Encryption key "Trans-Solar Federation"
   description: The Earth government... You should definitely hear what they have to say.
   components:
   - type: EncryptionKey
     channels:
-    - UGE
+    - TSF
     - Law
     - CentCom
+    - Blueshield
     - Common
     - Command
     - Engineering
@@ -17,8 +18,92 @@
     - Security
     - Service
     - Supply
-    defaultChannel: UGE
+    defaultChannel: TSF
   - type: Sprite
     layers:
     - state: crypt_red
+    - state: hop_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyATSF
+  name: Encryption key "Trans-Solar Federation Army"
+  description: The Earth government... You should definitely hear what they have to say.
+  components:
+  - type: EncryptionKey
+    channels:
+    - ArmyTSF
+    - TSF
+    - Law
+    - CentCom
+    - Blueshield
+    - Common
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: ATSF
+  - type: Sprite
+    layers:
+    - state: crypt_red
+    - state: hos_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyTSFS
+  name: Encryption key "Trans-Solar Federation Federal Security"
+  description: The Earth government... You should definitely hear what they have to say.
+  components:
+  - type: EncryptionKey
+    channels:
+    - SecTSF
+    - TSF
+    - Law
+    - CentCom
+    - Blueshield
+    - Common
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: SecTSF
+  - type: Sprite
+    layers:
+    - state: crypt_silver
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyLTSF
+  name: Encryption key "Trans-Solar Federation top official"
+  description: The Earth government... You should definitely hear what they have to say.
+  components:
+  - type: EncryptionKey
+    channels:
+    - LeadTSF
+    - SecTSF
+    - ArmyTSF
+    - TSF
+    - Law
+    - CentCom
+    - Blueshield
+    - Common
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: LeadTSF
+  - type: Sprite
+    layers:
+    - state: crypt_gold
     - state: cap_label
+

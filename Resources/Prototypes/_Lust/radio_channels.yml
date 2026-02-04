@@ -1,7 +1,31 @@
 - type: radioChannel
-  id: UGE
-  name: chat-radio-UGE
-  keycode: 'э'
+  id: TSF
+  name: chat-radio-TSF
+  keycode: '1'
   frequency: 1984
-  color: "#4169E1"
+  color: "#ffd500"
+  longRange: true
+
+- type: radioChannel
+  id: ArmyTSF
+  name: chat-radio-ATSF
+  keycode: '2'
+  frequency: 1989
+  color: "#f2ff00"
+  longRange: true
+
+- type: radioChannel
+  id: SecTSF
+  name: chat-radio-TSFS
+  keycode: '3'
+  frequency: 1983
+  color: "#ff3030"
+  longRange: true
+
+- type: radioChannel
+  id: LeadTSF
+  name: chat-radio-LTSF
+  keycode: '4'
+  frequency: 1980
+  color: "#00f7ff"
   longRange: true
